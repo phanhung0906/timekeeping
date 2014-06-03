@@ -1,0 +1,315 @@
+
+footer{
+    border-top: 1px solid #c0c0c0;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.navbar-default{
+    background-color: #fff;
+}
+
+/* Menu */
+.d-wrapper{
+    min-height: 100%;
+    height: auto !important;
+    padding-left: 240px;
+}
+.d-sidebar{
+    border-right: 1px solid #c0c0c0;
+    margin-left: -200px;
+    left: 200px;
+    width: 240px;
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+    background: #23272D;
+}
+.list-group ul{
+    padding-left:0;
+}
+.sidebar-menu li{
+    list-style: none;
+}
+.sidebar-menu li>ul{
+    background: #2A2E36;
+    display:none;
+    overflow: hidden;
+}
+.sidebar-menu li a{
+    color: #808b9c;
+    text-decoration: none;
+    display: block;
+    transition: all .2s;
+    padding: 12px 14px;
+}
+.sidebar-menu li a:hover{
+    color: white;
+    border-left: 4px solid #1A7AB9;
+}
+.sidebar-menu a .arrow {
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #fff;
+    border-top: 6px solid transparent;
+    float: right;
+    height: 0;
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 0;
+}
+.sidebar-menu a .arrow.open {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    float: right;
+    height: 0;
+    margin-right: 10px;
+    margin-top: 6px;
+    width: 0;
+}
+.activeMenu{
+    border-left: 4px solid #1A7AB9;
+}
+/* Menu */
+/* breadcrumb */
+.breadcrumb{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.breadcrumb .active{
+    color:#555;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color:#999;
+}
+.breadcrumb .breadcrumb-label{
+    color:#999;
+}
+.breadcrumb a:hover{
+    color: #555;
+}
+/* /breadcrumb */
+.d-content-wrapper{
+    width: 100%;
+}
+.d-content{
+    padding: 0 15px;
+}
+.navbar-right{
+    padding-right:15px;
+}
+.add-on{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: 16px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 10px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ffffff;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    margin-left: -5px;
+}
+#userInfo strong{
+    padding-left: 10px;
+}
+#overlay-full{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* drop down  */
+/*.navbar-fixed-top .open > .dropdown-menu {*/
+    /*-webkit-transform: scale(1, 1);*/
+    /*transform: scale(1, 1);*/
+    /*opacity:1;*/
+/*}*/
+
+/*.navbar-fixed-top .dropdown-menu {*/
+    /*opacity:.3;*/
+    /*-webkit-transform-origin: top;*/
+    /*transform-origin: top;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards;*/
+    /*-webkit-transform: scale(1, 0);*/
+    /*display: block;*/
+    /*transition: all 0.2s linear;*/
+    /*-webkit-transition: all 0.2s linear;*/
+/*}*/
+
+/* <-- drop down -->  */
+/* Overwrite boostrap CSS */
+.btn{
+    border-radius: 2px;
+}
+table{
+    color: #5b5b5b;
+}
+/*#logo-text:hover{*/
+    /*color: #fff;*/
+    /*text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;*/
+/*}*/
+#logo{
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 1.6s;
+}
+.navbar-brand{
+    padding:12px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+#searchIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #909090;
+}
+#searchForm input{
+    padding-right: 25px;
+}
+#searchForm .form-group{
+    position: relative;
+}
+/* <-- Overwrite boostrap CSS --> */
+/* Icon for form */
+#formAddUser .col-sm-8{
+    position: relative
+}
+#formAddUser .col-sm-8 i{
+    position: absolute;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    right: 25px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color: #A2A2A2;
+}
+#formAddUser .col-sm-8 input{
+    padding-right: 42px
+}
+#formProfile .col-sm-8{
+    position: relative
+}
+#formProfile .col-sm-8 i{
+    position: absolute;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    right: 25px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color: #A2A2A2;
+}
+#formProfile .col-sm-8 input{
+    padding-right: 42px
+}
+#datetimepicker1{
+    position: relative
+}
+#datetimepicker1 i{
+    position: absolute;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    right: 45px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color: #A2A2A2;
+}
+#datetimepicker1 input{
+    padding-right: 40px
+}
+#datetimepicker2{
+    position: relative
+}
+#datetimepicker2 i{
+    position: absolute;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    right: 45px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color: #A2A2A2;
+}
+#datetimepicker2 input{
+    padding-right: 40px
+}
+
+#formLogin .form-group{
+    position: relative
+}
+#formLogin .form-group i{
+    position: absolute;
+    top: 7px;
+    width: 22px;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    right: 7px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color: #A2A2A2;
+}
+#formLogin .form-group input{
+    padding-right: 40px
+}
+/* <-- Icon for form --> */
+#timekeeping{
+    font-size: 12px;
+    min-width: 1300px;
+}
+#timekeepingDiv{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* ovewrite bootstrap */
+.panel-success>.panel-heading {
+    background-color: #A5CD7D;
+    color: white;
+}
+
+.panel-warning>.panel-heading {
+    background-color: #F4B04F;
+    color: white;
+}
+
+.panel{
+    border-radius: 2px;
+}
+.panel-heading{
+    border-radius: 1px;
+}
